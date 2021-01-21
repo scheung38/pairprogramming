@@ -39,6 +39,17 @@ def my_sum(f=3,g=5, target=20):
 
 
 if __name__ == "__main__":     
-    ic(my_sum())
+    ic(my_sum(3,5,20))
+    ic(my_sum(target=20))
     ic(my_sum())
 
+
+# ic| list(set().union(list1,list2)): [3, 5, 6, 9, 10, 12, 15, 18]
+# ic| sum(list(set().union(list1,list2))): 78
+# ic| my_sum(3,5,20): 78
+# ic| list(set().union(list1,list2)): [3, 5, 6, 9, 10, 12, 15, 18]
+# ic| sum(list(set().union(list1,list2))): 78
+# ic| my_sum(target=20): 78
+# ic| list(set().union(list1,list2)): [3, 5, 6, 9, 10, 12, 15, 18]
+# ic| sum(list(set().union(list1,list2))): 78
+# ic| my_sum(): 78
